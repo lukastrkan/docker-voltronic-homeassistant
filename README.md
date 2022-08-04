@@ -1,6 +1,6 @@
-# A Docker based Home Assistant interface for MPP/Voltronic Solar Inverters 
+# A Docker based Home Assistant interface for MPP/Voltronic Solar Inverters - modded for easun 5kV
 
-**Docker Hub:** [`bushrangers/ha-voltronic-mqtt:latest`](https://hub.docker.com/r/bushrangers/ha-voltronic-mqtt/)
+**Docker Hub:** [`lukastrkan/docker-voltronic-homeassistant:latest`](https://hub.docker.com/r/lukastrkan/docker-voltronic-homeassistant/)
 
 ![License](https://img.shields.io/github/license/ned-kelly/docker-voltronic-homeassistant.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/bushrangers/ha-voltronic-mqtt.png) ![buildx](https://github.com/ned-kelly/docker-voltronic-homeassistant/workflows/buildx/badge.svg)
 
