@@ -135,7 +135,7 @@ bool cInverter::query(const char *cmd, int replysize) {
 
         lprintf("INVERTER: %s reply size (%d bytes)", cmd, i);
 
-        if (buf[0]!='(' || buf[replysize-1]!=0x0d) {
+        if (buf[0]!='(' || buf[replysize-1]!=0x0A) {
             lprintf("INVERTER: %s: incorrect start/stop bytes.  Buffer: %s", cmd, buf);
             return false;
         }
